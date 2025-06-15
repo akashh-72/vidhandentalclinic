@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Allow: /sitemap.xml
+
+# Sitemap location
+Sitemap: https://vidhaandentalclinic.com/sitemap.xml
+
+# Disallow admin and private directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /cgi-bin/
+
+# Allow all other directories
+Allow: /img/
+Allow: /css/
+Allow: /js/
+Allow: /lib/ 
